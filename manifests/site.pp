@@ -91,4 +91,20 @@ node default {
       'tmux',
     ]:
   }
+
+  git::config::global { 'diff.renames':
+    value  => 'copies'
+  }
+  git::config::global { 'color.ui':
+    value  => 'true'
+  }
+  git::config::global { 'core.autocrlf':
+    value  => 'false'
+  }
+  git::config::global { 'core.safecrlf':
+    value  => 'false'
+  }
+  git::config::global { 'core.ignorecase':
+    value  => 'false'
+  }
 }
