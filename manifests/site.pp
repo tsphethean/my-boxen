@@ -56,7 +56,18 @@ node default {
   include dnsmasq
   include git
   include hub
-  include nginx
+  #include nginx
+  include chrome::dev
+  include lastpass
+  include iterm2::stable
+  include phpstorm
+  include skype
+  include evernote
+  include sourcetree
+  include phpstorm
+  include firefox
+  include virtualbox
+  include vagrant
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -64,9 +75,9 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
-  include nodejs::v0_10
+  #include nodejs::v0_6
+  #include nodejs::v0_8
+  #include nodejs::v0_10
 
   # default ruby versions
   ruby::version { '1.9.3': }
@@ -87,4 +98,5 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+ 
 }
