@@ -89,6 +89,8 @@ node default {
       'curl',
       'subversion',
       'tmux',
+      'bash-completion',
+      'dos2unix',
     ]:
   }
 

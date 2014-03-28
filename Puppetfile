@@ -66,4 +66,4 @@ github "evernote",   "2.0.5"
 github "osx",        "2.2.2"
 github "sourcetree", "1.0.0"
 github "flux",       "1.0.1"
-
+github "spotify",    "1.0.1"
