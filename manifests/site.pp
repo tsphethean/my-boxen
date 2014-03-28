@@ -60,11 +60,10 @@ node default {
   include chrome::dev
   include lastpass
   include iterm2::stable
-  include phpstorm
   include skype
   include evernote
   include sourcetree
-  include phpstorm
+  include java
   include firefox
   include virtualbox
   include vagrant
@@ -76,6 +75,10 @@ node default {
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
+  }
+
+  class { 'phpstorm':
+    version => '7.1.3',
   }
 
   # common, useful packages
