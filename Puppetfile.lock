@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (3.4.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-calibre
+  specs:
+    calibre (3.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.2)
@@ -12,6 +17,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-evernote
@@ -150,8 +160,10 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.4.2)
+  calibre (= 3.1.0)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
+  dropbox (= 1.2.0)
   evernote (= 2.0.5)
   firefox (= 1.1.8)
   flux (= 1.0.1)
