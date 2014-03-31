@@ -71,6 +71,7 @@ node default {
   include osx::finder::show_hidden_files
   include osx::global::disable_remote_control_ir_receiver
   include osx::global::disable_autocorrect
+  include colloquy
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
