@@ -149,9 +149,19 @@ GITHUBTARBALL
     xquartz (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
   remote: dieterdemeyer/puppet-lastpass
   specs:
     lastpass (1.1.0)
+
+GITHUBTARBALL
+  remote: haelmy/puppet-ohmyzsh
+  specs:
+    ohmyzsh (0.0.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -189,6 +199,7 @@ DEPENDENCIES
   lastpass (= 1.1.0)
   module-data (= 0.0.3)
   nodejs (= 3.6.0)
+  ohmyzsh (= 0.0.1)
   openssl (= 1.0.0)
   osx (= 2.2.2)
   phpstorm (= 1.0.4)
@@ -203,4 +214,5 @@ DEPENDENCIES
   vagrant (= 3.0.6)
   virtualbox (= 1.0.11)
   xquartz (= 1.1.1)
+  zsh (= 1.0.0)
 
