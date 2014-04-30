@@ -1,5 +1,6 @@
 class people::tayzlor {
   include spotify
+  include homebrew
   include zsh 
   include osx::dock::autohide  
   include osx::finder::show_hidden_files
